@@ -154,6 +154,24 @@
                     <autoReleaseAfterClose>true</autoReleaseAfterClose>
                 </configuration>
             </plugin>
+            <!-- Definition des Checkstyle-Plugins mit Aufloesung der Referenz -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-checkstyle-plugin</artifactId>
+                <version>2.15</version>
+                <dependencies>
+                    <dependency>
+                        <groupId>com.puppycrawl.tools</groupId>
+                        <artifactId>checkstyle</artifactId>
+                        <version>6.5.0</version>
+                    </dependency>
+                </dependencies>
+                <configuration>
+                    <configLocation>config/checkstyleChecks.xml</configLocation>
+                    <propertyExpansion>samedir=${basedir}/config/</propertyExpansion>
+                    <excludes>NOTHING_AT_THE_MOMENT</excludes>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
