@@ -15,6 +15,7 @@ To use codecompletion add `xmlns:bs="http://www.ppi.de/thymeleaf/bootstrap2"` to
 
 ## Installation
 Simply add
+
     <dependency>
         <groupId>de.ppi.oss</groupId>
         <artifactId>thymeleaf-bootstrap2</artifactId>
