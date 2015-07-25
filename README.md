@@ -1,4 +1,4 @@
-# thymeleaf bootstap2
+# thymeleaf bootstap2[![Build Status](https://travis-ci.org/ppi-ag/thymeleaf-bootstrap2.svg?branch=master)](https://travis-ci.org/ppi-ag/thymeleaf-bootstrap2)
 
 Thymeleaf Dialect which helps to create bootstrap2-forms.
 
