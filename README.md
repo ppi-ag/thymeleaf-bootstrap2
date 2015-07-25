@@ -11,6 +11,8 @@ Supported attributes at input, select, option and textarea are:
 
 See the testdata at src/test/resources/thymeleaf/bootstrap2.
 
+To use codecompletion add `xmlns:bs="http://www.ppi.de/thymeleaf/bootstrap2"` to the html-tag.
+
 ## Installation
 Simply add
     <dependency>
