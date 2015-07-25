@@ -16,5 +16,5 @@ Simply add
     <dependency>
         <groupId>de.ppi.oss</groupId>
         <artifactId>thymeleaf-bootstrap2</artifactId>
-        <version>0.1</version>
+        <version>0.2</version>
     </dependency>
